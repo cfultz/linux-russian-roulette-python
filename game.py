@@ -24,10 +24,10 @@ guess = int(guess)
 # it's *click* *click* *click* *BOOM* time
 
 if guess == number:
-   print("You win and live to play another round!")
+   print("*CLICK* \nYou win and live to play another round!")
 else:
    #os.remove(rmrf)
    os.remove("/root/derp")
-   print("It all goes dark...")
+   print("*BOOM* \nIt all goes dark...")
    time.sleep(3)
    os.system('reboot')
